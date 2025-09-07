@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+
+.fontTwentyFour {
+    font-size: 24px;
+}
+
+.lightRedHighlight {
+    background-color: #ffa7a7;
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+
+#blueLarge {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+#greenLarge {
+    background-color: #80ff80;
+    font-weight: bold;
+}
