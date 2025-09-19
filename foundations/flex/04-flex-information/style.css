@@ -7,9 +7,29 @@ img {
   height: 100px;
 }
 
+.card, .information, .title {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  flex-flow: row wrap;
+  padding-left: 52px;
+}
+
+div.card:first-child {
+  padding-left: 0px;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  padding-bottom: 32px;
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
