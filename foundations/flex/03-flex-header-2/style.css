@@ -45,4 +45,19 @@ a {
 
 ul {
   list-style-type: none;
+  padding: 0;
+}
+
+.header, ul, [class^="flex"] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo, .links, .notifications, .profile-image, ul li {
+  margin: 0 8px;
+}
+
+ul li:first-child {
+  margin-left: 0px;
 }
